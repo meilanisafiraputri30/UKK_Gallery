@@ -1,0 +1,517 @@
+.gogo{
+
+}
+
+.hoho {
+    display: flex;
+    width: 97%;
+}
+
+.hihi {
+    width: 97%;
+}
+
+.seniman {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.komentar-owner-profile-circle {
+    /* margin-bottom: 10px; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.komentar-owner-profile-circle .owner-profile {
+    width: 100%;
+    height: 100%;
+}
+
+.owner-name {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    /* position: absolute; */
+    /* margin-left: 40px; */
+    /* margin-top: 12px; */
+}
+
+.content-pembungkus {
+    width: 97%;
+    max-height: 100%;
+}
+
+/* Image Lebar */
+.content-komentar-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+.content-komentar-image .komentar-title .left {
+    line-height: 5px;
+    width: 100%;
+}
+
+.content-komentar-image .komentar-title .left .left-left {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.content-komentar-image .komentar-title .left .left-left .action {
+    height: 20px;
+}
+
+.content-komentar-image .komentar-title .left .left-left .action .right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content-komentar-image
+    .komentar-title
+    .left
+    .left-left
+    .action
+    .right
+    .like-button {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-komentar-image
+    .komentar-title
+    .left
+    .left-left
+    .action
+    .right
+    .like-button
+    p {
+    margin-bottom: 0rem;
+}
+
+.content-komentar-image .komentar-title .left .caption {
+    font-weight: 700;
+}
+
+.content-komentar-image .komentar-title .left .description {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content-komentar-image .komentar-title .left .description .description-text {
+    width: 100%;
+    line-height: 25px;
+    max-height: 70px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.content-komentar-image .komentar-title .left .description .description-title {
+    font-size: 16px;
+    color: rgb(139, 139, 139);
+}
+
+.content-komentar-image .komentar-title .right {
+    align-items: center;
+    justify-content: center;
+}
+
+.content-komentar-image .komentar-title .right .report-button button {
+    background: transparent;
+    border: none;
+    width: 22px;
+    height: 22px;
+}
+
+.content-komentar-image .komentar-title .right .like-button button {
+    margin-right: 10px;
+    display: flex;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.content-komentar-image .komentar-image {
+    width: 100%;
+    height: 600px;
+}
+
+.content-komentar-image .komentar-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Komentar */
+.komentar-content {
+    width: 97%;
+    height: auto;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+}
+
+.komentar-content form .card input {
+    border: none;
+    width: 100%;
+}
+
+.komentar-content .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+}
+
+.empty-comment-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-comment-div .message {
+    color: #a1a1a1;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.komentar-content .card .chat .left .profile .photo img {
+    width: 45px;
+    height: 45px;
+}
+
+.komentar-content .card .chat .left .chat-column {
+    line-height: 20px;
+}
+
+.komentar-content .card .chat .left .chat-column .username p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.komentar-content .card .chat .left .chat-column .text-chat p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.komentar-content .card .chat .left .chat-column .text-chat {
+    margin-top: -12px;
+}
+
+.komentar-content .card .chat .left .chat-column .tanggal-chat p{
+    font-size: 14px;
+}
+
+.komentar-content .card .chat .right .action button {
+    border: none;
+    background-color: #ffff;
+}
+
+.komentar-content .card .chat .right .action ul {
+    width: 20px;
+}
+
+.komentar-content .card .chat .right .action ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+/* ASIDE */
+
+/* Card pembungkus semuanya */
+
+aside .atur {
+    max-height: 100%;
+    overflow: auto;
+}
+
+aside .card {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+}
+
+/* Card pembungkus card-custome / kontentnya */
+aside .card .card {
+    height: 300px;
+    width: 260px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+aside .card .card .card-custome {
+    width: 240px;
+    height: 190px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
+    height: 500px;
+}
+
+aside .card .card .card-custome .gambar img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+aside .card .card .card-custome .label-card {
+    position: absolute;
+    bottom: 20px;
+    line-height: 10px;
+}
+
+aside .card .card .card-custome .label-card .captions p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 682px) {
+    /* MAIN WIDTH CONTENT */
+    .hoho {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hoho .hihi {
+        width: 100%;
+    }
+
+    /* RESIZE IMAGE */
+    .content-komentar-image .komentar-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* ASIDE */
+    aside .atur {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .seniman {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .seniman .komentar-owner-profile-circle {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .seniman .owner-name {
+        /* width: 100px;
+        height: 30px; */
+        font-size: 10px;
+    }
+
+    .content-pembungkus {
+        width: 100%;
+        max-height: 100%;
+    }
+
+    /* Image Lebar */
+    .content-komentar-image {
+        width: 100%;
+        height: 70%;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: none;
+    }
+
+    .content-komentar-image .komentar-title .left {
+        line-height: 5px;
+    }
+
+    .content-komentar-image .komentar-title .left .caption {
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .content-komentar-image .komentar-title .left .description {
+        width: 200px;
+    }
+
+    .content-komentar-image .komentar-title .left {
+        line-height: 5px;
+        width: 100%;
+    }
+
+    .content-komentar-image .komentar-title .left .left-left {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .content-komentar-image .komentar-title .left .left-left .action {
+        height: 20px;
+    }
+
+    .content-komentar-image .komentar-title .left .left-left .action .right {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .content-komentar-image
+        .komentar-title
+        .left
+        .description
+        .description-text {
+        width: 100%;
+        max-height: 70px;
+        font-size: 10px;
+    }
+
+    .content-komentar-image
+        .komentar-title
+        .left
+        .description
+        .description-title {
+        font-size: 12px;
+    }
+
+    .content-komentar-image .komentar-title .left .description #read-more-btn {
+        font-size: 10px;
+    }
+
+    .content-komentar-image .komentar-title .right {
+        display: flex;
+        align-items: center;
+    }
+
+    .content-komentar-image .komentar-title .right .report-button button {
+        background: transparent;
+        border: none;
+        width: 12px;
+        height: 12px;
+    }
+
+    .content-komentar-image .komentar-title .right .like-button button {
+        margin-right: 10px;
+        display: flex;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+
+    .content-komentar-image .komentar-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .content-komentar-image .komentar-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Komentar */
+    .komentar-content {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+    }
+    .komentar-content form {
+        width: 100%;
+    }
+
+    .komentar-content form .card input {
+        border: none;
+        width: 100%;
+        height: 10px;
+    }
+
+    .komentar-content .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+    }
+
+    .empty-comment-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empty-comment-div .message {
+        color: #a1a1a1;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .komentar-content .card .chat .left .chat-column {
+        line-height: 20px;
+    }
+
+    .komentar-content .card .chat .left .chat-column .username p {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .komentar-content .card .chat .left .profile .photo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .komentar-content .card .chat .left .chat-column .text-chat p {
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    .komentar-content .card .chat .left .chat-column .text-chat {
+        margin-top: -12px;
+    }
+
+    .komentar-content .card .chat .left .chat-column .tanggal-chat p{
+        font-size: 4px;
+    }
+
+    .komentar-content .card .chat .right .action button {
+        border: none;
+        background-color: #ffff;
+    }
+
+    .komentar-content .card .chat .right .action ul {
+        width: 20px;
+    }
+
+    .komentar-content .card .chat .right .action ul li a {
+        color: red;
+        text-decoration: none;
+    }
+}
